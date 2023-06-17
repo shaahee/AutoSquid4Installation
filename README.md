@@ -1,8 +1,5 @@
 
 # squid4 for autoinstall  with dns-crypt&unbound
-* I use ubuntu 15.04 in session to install this squid4
-* my ip address proxy server  192.168.1.200
-* dns-nameservers 192.168.1.1 gateway 192.168.1.1
 
 # replace with your ip address on the config below :
 * unbound.conf ---->  replace with the your IP address proxy and domain
@@ -10,21 +7,10 @@
 * rc.local ----> replace with your ip address proxy
 
 # repository by indonesia server
-```bash
-# local repostiroy ubuntu 15.04:
-* Indonesia-repository-server:
-deb http://id.archive.ubuntu.com/ubuntu/ vivid main restricted universe multiverse
-deb http://id.archive.ubuntu.com/ubuntu/ vivid-security main restricted universe multiverse 
-deb http://id.archive.ubuntu.com/ubuntu/ vivid-updates main restricted universe multiverse
-* local-repository-server-Kambing.ui.ac.id:
-deb http://kambing.ui.ac.id/ubuntu/ vivid main restricted universe multiverse
-deb http://kambing.ui.ac.id/ubuntu/ vivid-updates main restricted universe multiverse
-deb http://kambing.ui.ac.id/ubuntu/ vivid-security main restricted universe multiverse
-deb http://kambing.ui.ac.id/ubuntu/ vivid-backports main restricted universe multiverse
-deb http://kambing.ui.ac.id/ubuntu/ vivid-proposed main restricted universe multiverse
+
 ```
 #installation
-###already finish installation server,webserver
+##########################################
 start the installation with git clone
 ```bash
 #installasi complete software 
